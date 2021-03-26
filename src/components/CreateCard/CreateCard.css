@@ -1,0 +1,69 @@
+.card__modal-creator-users {
+  position: fixed;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 374px;
+  max-width: 100%;
+  max-height: 100%;
+  /* height: 381px; */
+  background: #D4D4D4;
+  border-radius: 5px;
+  z-index: 2;
+  padding: 12px 12px 13px 12px;
+}
+
+.modal-overlay {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(65, 65, 78, 0.7);
+}
+
+.card__modal-creator-input {
+  width: 350px;
+  height: 45px;
+  padding: 4px 12px 4px 12px;
+  margin: 10px 0 0 0 ;
+  border-radius: 2px;
+  resize: none;
+  overflow-y: hidden;
+  outline: none;
+  border:none;
+  background: #ffffff;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.card__modal-creator-closed {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -27px;
+  right: -27px;
+  height: 28px;
+  width: 28px;
+  background: #D4D4D4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card__modal-creator-users-btn {
+  border: none;
+  outline: none;
+  margin: 16px 0 0 0;
+  /* color: white; */
+  font-size: 20px;
+  width: 111px;
+  height: 32px;
+  background: rgb(255, 183, 2);
+  border-radius: 3px;
+  cursor: pointer;
+}
